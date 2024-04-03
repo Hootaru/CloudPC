@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>CheckOut - CloudPC</title>
+
+ 		<!-- Google font -->
+ 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+ 		<!-- Bootstrap -->
+ 		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Favicon -->
+
+		<link rel="icon" href="img/nube.png" type="image/x-icon">
+
+ 		<!-- Slick -->
+ 		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+ 		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+
+ 		<!-- nouislider -->
+ 		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+
+ 		<!-- Font Awesome Icon -->
+ 		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+ 		<!-- Custom stlylesheet -->
+ 		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+	<body>
+		<!-- HEADER -->
+		<header>
+			<!-- TOP HEADER -->
+			<div id="top-header">
+				<div class="container">
+					<ul class="header-links pull-left">
+						<li><a href="#"><i class="fa fa-phone"></i> +52 55 6216 3049</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> CloudPC@gmail.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i> Cto. Rey Nezahualcóyotl, Manzana 010, 57000</a></li>
+					</ul>
+					<ul class="header-links pull-right">
+						<li><a href="login.html"><i class="fa fa-user-o"></i> Mi cuenta</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- /TOP HEADER -->
+
+			<!-- MAIN HEADER -->
+			<div id="header">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<!-- LOGO -->
+						<div class="col-md-3">
+							<div class="header-logo">
+								<a href="index.html" class="logo">
+									<img src="./img/cloudpc.png" alt="">
+								</a>
+							</div>
+						</div>
+						<!-- /LOGO -->
+
+							<!-- SEARCH BAR -->
+							<div class="col-md-6">
+								<div class="header-search">
+									<form>
+										<select class="input-select">
+											<option value="0">Categorías</option> 										</option>
+											<option value="1">Laptops</option>
+											<option value="2">Celulares</option>}
+											<option value="3">Cámaras</option>
+											<option value="4">Audífonos</option>
+										</select>
+										<input class="input" placeholder="Busca aquí un producto">
+										<button class="search-btn">Buscar</button>
+									</form>
+								</div>
+							</div>
+							<!-- /SEARCH BAR -->
+
+						<!-- ACCOUNT -->
+						<div class="col-md-3 clearfix">
+							<div class="header-ctn">
+								<!-- Wishlist -->
+								<div>
+									<a href="#">
+										<i class="fa fa-heart-o"></i>
+										<span>Favoritos</span>
+										<!-- <div class="qty">1</div> -->
+									</a>
+								</div>
+								<!-- /Wishlist -->
+
+								<!-- Cart -->
+								<div class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+										<i class="fa fa-shopping-cart"></i>
+										<span>Carrito</span>
+										<!-- <div class="qty">3</div> -->
+									</a>
+									<div class="cart-dropdown">
+										<div class="cart-list">
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/product01.png" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">LENOVO ThinkPad</a></h3>
+													<h4 class="product-price"><span class="qty">1x</span>$8,400</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/product02.png" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">SONY IN EAR</a></h3>
+													<h4 class="product-price"><span class="qty">3x</span>$17,250</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+										</div>
+										<div class="cart-summary">
+											<small>3 Objeto(s) seleccionados</small>
+											<h5>SUBTOTAL: $26,650</h5>
+										</div>
+										<div class="cart-btns">
+											<a href="#">Ver Carrito</a>
+											<a href="checkout.html">Pagar  <i class="fa fa-arrow-circle-right"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Cart -->
+
+								<!-- Menu Toogle -->
+								<div class="menu-toggle">
+									<a href="#">
+										<i class="fa fa-bars"></i>
+										<span>Menu</span>
+									</a>
+								</div>
+								<!-- /Menu Toogle -->
+							</div>
+						</div>
+						<!-- /ACCOUNT -->
+					</div>
+					<!-- row -->
+				</div>
+				<!-- container -->
+			</div>
+			<!-- /MAIN HEADER -->
+		</header>
+		<!-- /HEADER -->
+
+		<!-- NAVIGATION -->
+		<nav id="navigation">
+			<!-- container -->
+			<div class="container">
+				<!-- responsive-nav -->
+				<div id="responsive-nav">
+					<!-- NAV -->
+					<ul class="main-nav nav navbar-nav">
+						<li><a href="index.html">Inicio</a></li>
+						<li class="active"><a href="checkout.html">CheckOut</a></li>
+					</ul>
+					<!-- /NAV -->
+				</div>
+				<!-- /responsive-nav -->
+			</div>
+			<!-- /container -->
+		</nav>
+		<!-- /NAVIGATION -->
+
+		<!-- BREADCRUMB -->
+		<div id="breadcrumb" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="breadcrumb-header">Checkout</h3>
+						<ul class="breadcrumb-tree">
+							<li><a href="index.html">INICIO</a></li>
+							<li class="active">PAGAR</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /BREADCRUMB -->
+
+		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+
+					<div class="col-md-7">
+						<!-- Billing Details -->
+						<div class="billing-details">
+							<div class="section-title">
+								<h3 class="title">DIRECCIÓN DE ENVIO
+								</h3>
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="first-name" placeholder="Nombre(s)">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="last-name" placeholder="Apellidos">
+							</div>
+							<div class="form-group">
+								<input class="input" type="email" name="email" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="address" placeholder="Dirección">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="city" placeholder="Ciudad">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="country" placeholder="Estado">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="zip-code" placeholder="Codigo Postal">
+							</div>
+							<div class="form-group">
+								<input class="input" type="tel" name="tel" placeholder="Telefono">
+							</div>
+						</div>
+						<!-- /Billing Details -->
+
+						<!-- Order notes -->
+						<div class="order-notes">
+							<textarea class="input" placeholder="Notas"></textarea>
+						</div>
+						<!-- /Order notes -->
+					</div>
+
+					<!-- Order Details -->
+					<div class="col-md-5 order-details">
+						<div class="section-title text-center">
+							<h3 class="title">TU PEDIDO</h3>
+						</div>
+						<div class="order-summary">
+							<div class="order-col">
+								<div><strong>PRODUCTOS</strong></div>
+								<div><strong>TOTAL</strong></div>
+							</div>
+							<div class="order-products">
+								<div class="order-col">
+									<div>1x LENOVO ThinkPad</div>
+									<div>$8,400</div>
+								</div>
+								<div class="order-col">
+									<div>3x SONY IN EAR</div>
+									<div>$17,250</div>
+								</div>
+							</div>
+							<div class="order-col">
+								<div>Envío</div>
+								<div><strong>GRATIS</strong></div>
+							</div>
+							<div class="order-col">
+								<div><strong>TOTAL</strong></div>
+								<div><strong class="order-total">$26,650</strong></div>
+							</div>
+						</div>
+						<div class="payment-method">
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-1">
+								<label for="payment-1">
+									<span></span>
+									Transferencia Bancaria
+								</label>
+								<div class="caption">
+									<p>El tiempo necesario para que el pago se refleje varía según el banco donde se realizó la transferencia, siendo de al menos 1 hora.</p>
+								</div>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-2">
+								<label for="payment-2">
+									<span></span>
+									Pago Con Tarjeta
+								</label>
+								<div class="caption">
+									<p>El pago se refleja en un plazo de 5 minutos.</p>
+								</div>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-3">
+								<label for="payment-3">
+									<span></span>
+									Paypal 
+								</label>
+								<div class="caption">
+									<p>El pago tarda al menos 1 día en reflejarse.</p>
+								</div>
+							</div>
+						</div>
+						<div class="input-checkbox">
+							<input type="checkbox" id="terms">
+							<label for="terms">
+								<span></span>
+								He leído y acepto los <a href="#">términos y condiciones</a>
+							</label>
+						</div>
+						<a href="#" class="primary-btn order-submit">ORDENAR</a>
+					</div>
+					<!-- /Order Details -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+		<!-- NEWSLETTER -->
+		<div id="newsletter" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="newsletter">
+							<p>Únete a nuestra <strong>PÁGINA</strong></p>
+							<form>
+								<input class="input" type="email" placeholder="Ingresa tu correo">
+								<button class="newsletter-btn"><i class="fa fa-envelope"></i> Unirse</button>
+							</form>
+							<ul class="newsletter-follow">
+								<li>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-instagram"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-pinterest"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /NEWSLETTER -->
+
+		<!-- FOOTER -->
+		<footer id="footer">
+			<!-- top footer -->
+			<div class="section">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Acerca de nosotros</h3>
+								<p>La mejor página para comprar cualquier tipo de electrodoméstico al mejor precio</p>
+								<ul class="footer-links">
+									<li><a href="#"><i class="fa fa-map-marker"></i>Cto. Rey Nezahualcóyotl, Manzana 010, 57000</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+52 55 6216 3049</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>CloudPC@gmail.com</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Categorías</h3>
+								<ul class="footer-links">
+									<li><a href="#">Ofertas</a></li>
+									<li><a href="#">Laptops</a></li>
+									<li><a href="#">Celulares</a></li>
+									<li><a href="#">Cámaras</a></li>
+									<li><a href="#">Accessorios</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="clearfix visible-xs"></div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Información</h3>
+								<ul class="footer-links">
+									<li><a href="#">Acerca de nosotros</a></li>
+									<li><a href="#">Contáctanos</a></li>
+									<li><a href="#">Políticas de privacidad</a></li>
+									<li><a href="#">Términos y Condiciones</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Servicios</h3>
+								<ul class="footer-links">
+									<li><a href="login.html">Mi Cuenta</a></li>
+									<li><a href="checkout.html">Ver Carrito</a></li>
+									<li><a href="#">Favoritos</a></li>
+									<li><a href="#">Ayuda</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /top footer -->
+
+			<!-- bottom footer -->
+			<div id="bottom-footer" class="section">
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<ul class="footer-payments">
+								<li><a href="#"><i class="fa fa-cc-visa" style="color: white;"></i></a></li>
+								<li><a href="#"><i class="fa fa-credit-card" style="color: white;"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-paypal" style="color: white;"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-mastercard" style="color: white;"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-discover" style="color: white;"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-amex" style="color: white;"></i></a></li>
+							</ul>
+							<span class="copyright">
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> Derechos Reservados | CloudPC
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</span>
+						</div>
+					</div>
+						<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /bottom footer -->
+		</footer>
+		<!-- /FOOTER -->
+
+		<!-- jQuery Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
